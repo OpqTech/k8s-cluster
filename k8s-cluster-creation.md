@@ -116,8 +116,8 @@
               "max-size": "100m"
               },
               "storage-driver": "overlay2"
-              }
-              EOF
+            }
+            EOF
 
             sudo systemctl enable docker
             sudo systemctl daemon-reload
