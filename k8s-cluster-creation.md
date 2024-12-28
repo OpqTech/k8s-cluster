@@ -148,7 +148,7 @@
             ```
             vi /etc/containerd/config.toml
             ```
-        1. Change the value of `SystemdCgroup` from `false` to `true` (it should be visible around line number 125 in `config.toml`):
+        1. Change the value of `SystemdCgroup` from `false` to `true` (it should be visible around line number 139 in `config.toml`):
             ```
             SystemdCgroup = true
             ```
